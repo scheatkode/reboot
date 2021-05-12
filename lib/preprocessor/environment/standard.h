@@ -86,6 +86,47 @@
 
 #endif /* <!-- }}} Standard C --> */
 
+/*! <!-- Standard C version {{{ -->
+ * TODO(scheatkode): Write Standard C version documentation.
+ */
+#ifdef __STDC_VERSION__
+
+#  if ! defined(AMPLIFY_PREPROCESSOR_STANDARD_C)
+   || ! defined(AMPLIFY_PREPROCESSOR_STANDARD_C_1989)
+
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C 1994
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_1989  /*!<    ANSI X3.159-1989 */
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_1990  /*!<   ISO/IEC 9899:1990 */
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_1994  /*!< ISO/IEC 9899-1:1994 */
+
+#  endif
+
+#  if (__STDC_VERSION__ >= 199409L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_C
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C 1994
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_1994  /*!< ISO/IEC 9899-1:1994 */
+#  endif
+
+#  if (__STDC_VERSION__ >= 199901L) \
+   || defined(__STDC_HOSTED__)        /*!< This macro appeared starting C99 */
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_C
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C 1999
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_1999    /*!< ISO/IEC 9899:1999 */
+#  endif
+
+#  if (__STDC_VERSION__ >= 201112L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_C
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C 2011
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_2011    /*!< ISO/IEC 9899:2011 */
+#  endif
+
+#  if (__STDC_VERSION__ >= 201710L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_C
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C 2017
+#     define AMPLIFY_PREPROCESSOR_STANDARD_C_2017    /*!< ISO/IEC 9899:2018 */
+#  endif
+
+#endif /* <!-- }}} Standard C version --> */
 #endif /* __AMPLIFY_PREPROCESSOR_ENVIRONMENT_STANDARD_H__ */
 
 /* vim: set ft=c et sw=3 fdm=marker fmr={{{,}}} fdl=0: */
