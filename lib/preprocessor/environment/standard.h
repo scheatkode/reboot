@@ -74,6 +74,17 @@
  * - Extensive compiler flag testing
  */
 
+/*! <!-- Standard C {{{ -->
+ * This  section  safely  assumes and  initializes  the
+ * below constant to a minimum of C89 if the `__STDC__`
+ * predefined macro is available.
+ */
+#ifdef __STDC__
+
+#  define AMPLIFY_PREPROCESSOR_STANDARD_C 1989
+#  define AMPLIFY_PREPROCESSOR_STANDARD_C_1989        /*!< ANSI X3.159-1989 */
+
+#endif /* <!-- }}} Standard C --> */
 
 #endif /* __AMPLIFY_PREPROCESSOR_ENVIRONMENT_STANDARD_H__ */
 
