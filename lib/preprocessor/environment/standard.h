@@ -170,6 +170,16 @@
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_CLI               /*!< ECMA-372 */
 
 #endif /*! <!-- C++ CLI }}} --> */
+
+/*! <!-- Embedded C++ {{{ -->
+ * TODO(scheatkode): Write embedded C++ documentation.
+ */
+#ifdef __embedded_cplusplus
+
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 0
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_EMBEDDED      /*!< Embedded C++ */
+
+#endif /*! <!-- Embedded C++ }}} --> */
 #endif /* __AMPLIFY_PREPROCESSOR_ENVIRONMENT_STANDARD_H__ */
 
 /* vim: set ft=c et sw=3 fdm=marker fmr={{{,}}} fdl=0: */
