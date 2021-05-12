@@ -74,6 +74,7 @@
  * - Extensive compiler flag testing
  */
 
+/*! <!-- C {{{ --> */
 /*! <!-- Standard C {{{ -->
  * This  section  safely  assumes and  initializes  the
  * below constant to a minimum of C89 if the `__STDC__`
@@ -127,6 +128,9 @@
 #  endif
 
 #endif /* <!-- }}} Standard C version --> */
+/*! <!-- C }}} --> */
+
+/*! <!-- C++ {{{ --> */
 /*! <!-- Standard C++ version {{{ -->
  * TODO(scheatkode): Write Standard C++ version documentation.
  */
@@ -180,6 +184,8 @@
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_EMBEDDED      /*!< Embedded C++ */
 
 #endif /*! <!-- Embedded C++ }}} --> */
+/*! <!-- C++ }}} --> */
+
 #endif /* __AMPLIFY_PREPROCESSOR_ENVIRONMENT_STANDARD_H__ */
 
 /* vim: set ft=c et sw=3 fdm=marker fmr={{{,}}} fdl=0: */
