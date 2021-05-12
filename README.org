@@ -1,0 +1,16 @@
+#+TITLE:        Amplify
+#+TITLE:
+#+AUTHOR:       scheatkode
+#+EMAIL:        scheatkode@gmail.com
+#+DESCRIPTION:  A set of libraries for the C programming language.
+
+#+begin_html
+<p align="center">
+<a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP  Initial development is in progress, but there has not yet been a stable, usable release suitable for the public." /></a>
+</p>
+<p align="center">
+<img id="gif" class="nlSABoG9CSaJpsufv8WW9 _3vYn8QjoEvrXxHyqdn9ddZ _2XBDTIVigBJDybhZvL-hU3" src="https://media4.giphy.com/media/564sPWS5v6QbzMTteY/200w.webp?cid=790b761187cbb1cea57345c9ed20a37a328f6b36126a411f&amp;rid=200w.webp&amp;ct=g" srcset="https://media4.giphy.com/media/564sPWS5v6QbzMTteY/200w.webp?cid=790b761187cbb1cea57345c9ed20a37a328f6b36126a411f&amp;rid=200w.webp&amp;ct=g 200w,https://media4.giphy.com/media/564sPWS5v6QbzMTteY/giphy.webp?cid=790b761187cbb1cea57345c9ed20a37a328f6b36126a411f&amp;rid=giphy.webp&amp;ct=g 480w," sizes="100vw" alt="">
+</p>
+#+end_html
+
+This is a work in progress, move along.
