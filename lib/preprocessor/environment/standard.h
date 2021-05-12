@@ -127,6 +127,39 @@
 #  endif
 
 #endif /* <!-- }}} Standard C version --> */
+/*! <!-- Standard C++ version {{{ -->
+ * TODO(scheatkode): Write Standard C++ version documentation.
+ */
+#ifdef __cplusplus
+
+#  if (__cplusplus >= 199711L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_CPP
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP 1997
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP_1997 /*!< ISO/IEC 14882:1998 */
+#  endif
+
+#  if (__cplusplus >= 201103L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_CPP
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP 2011
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP_2011 /*!< ISO/IEC 14882:2011 */
+#  endif
+
+#  if (__cplusplus >= 201402L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_CPP
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP 2014
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP_2014 /*!< ISO/IEC 14882:2014 */
+#  endif
+
+#  if (__cplusplus >= 201703L)
+#     undef  AMPLIFY_PREPROCESSOR_STANDARD_CPP
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP 2017
+#     define AMPLIFY_PREPROCESSOR_STANDARD_CPP_2017 /*!< ISO/IEC 14882:2017 */
+#  endif
+
+#  ifndef AMPLIFY_PREPROCESSOR_STANDARD_CPP
+#  endif
+
+#endif /*! <!-- }}} Standard C++ version --> */
 #endif /* __AMPLIFY_PREPROCESSOR_ENVIRONMENT_STANDARD_H__ */
 
 /* vim: set ft=c et sw=3 fdm=marker fmr={{{,}}} fdl=0: */
