@@ -128,9 +128,9 @@
 #  endif
 
 #endif /* <!-- }}} Standard C version --> */
-/*! <!-- C }}} --> */
+/* <!-- C }}} --> */
 
-/*! <!-- C++ {{{ --> */
+/* <!-- C++ {{{ --> */
 /*! <!-- Standard C++ version {{{ -->
  * TODO(scheatkode): Write Standard C++ version documentation.
  */
@@ -163,17 +163,17 @@
 #  ifndef AMPLIFY_PREPROCESSOR_STANDARD_CPP
 #  endif
 
-#endif /*! <!-- }}} Standard C++ version --> */
+#endif /* <!-- }}} Standard C++ version --> */
 
-/*! <!-- C++ CLI {{{ -->
  * TODO(scheatkode): Write C++ CLI documentation.
+/*! <!-- C++/CLI {{{ -->
  */
 #ifdef __cplusplus_cli
 
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 0
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_CLI               /*!< ECMA-372 */
 
-#endif /*! <!-- C++ CLI }}} --> */
+#endif /* <!-- C++ CLI }}} --> */
 
 /*! <!-- Embedded C++ {{{ -->
  * TODO(scheatkode): Write embedded C++ documentation.
@@ -183,8 +183,8 @@
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 0
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_EMBEDDED      /*!< Embedded C++ */
 
-#endif /*! <!-- Embedded C++ }}} --> */
-/*! <!-- C++ }}} --> */
+#endif /* <!-- Embedded C++ }}} --> */
+/* <!-- C++ }}} --> */
 
 #endif /* __AMPLIFY_PREPROCESSOR_ENVIRONMENT_STANDARD_H__ */
 
