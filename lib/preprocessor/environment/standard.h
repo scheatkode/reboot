@@ -170,7 +170,8 @@
  */
 #ifdef __cplusplus_cli
 
-#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 0
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 1998
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_1998    /*!< ISO/IEC 14882:1998 */
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_CLI               /*!< ECMA-372 */
 
 #endif /* <!-- C++ CLI }}} --> */
