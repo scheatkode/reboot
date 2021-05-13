@@ -181,7 +181,7 @@
 #ifdef __embedded_cplusplus
 
 #  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 0
-#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_EMBEDDED      /*!< Embedded C++ */
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_EMB           /*!< Embedded C++ */
 
 #endif /* <!-- Embedded C++ }}} --> */
 /* <!-- C++ }}} --> */
