@@ -210,7 +210,18 @@
 #endif /* <!-- C++ CLI }}} --> */
 
 /*! <!-- Embedded C++ {{{ -->
- * TODO(scheatkode): Write embedded C++ documentation.
+ * Embedded C++ is a subset of C++ lacking at least the
+ * following language  features which  are known  to be
+ * used extensively throughout the standard library :
+ *
+ * - Exceptions
+ * - Multiple inheritance
+ * - Namespaces
+ * - RTTI support
+ * - Templates
+ *
+ * It  is  therefore  not   compliant  to  any  of  the
+ * aforementioned C++ standards.
  */
 #ifdef __embedded_cplusplus
 
