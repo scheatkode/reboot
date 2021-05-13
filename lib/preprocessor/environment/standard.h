@@ -60,15 +60,36 @@
  *
  * Sources :
  *
+ * - http://csapp.cs.cmu.edu/3e/docs/chistory.html
+ * - http://david.tribble.com/text/cdiffs.htm#C90-vs-CPP98
+ * - http://www.c-faq.com/
+ * - http://www.coding-guidelines.com/cbook/c90c++.pdf
+ * - http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf
+ * - http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1570.pdf
+ * - http://www.open-std.org/JTC1/SC22/WG14/www/docs/n2310.pdf
+ * - http://www.open-std.org/JTC1/SC22/WG14/www/docs/n2596.pdf
+ * - http://www.open-std.org/JTC1/SC22/WG14/www/standards
  * - https://en.wikipedia.org/wiki/ANSI_C
- * - https://en.wikipedia.org/wiki/C99
+ * - https://en.wikipedia.org/wiki/C++/CX
  * - https://en.wikipedia.org/wiki/C11_(C_standard_revision)
  * - https://en.wikipedia.org/wiki/C17_(C_standard_revision)
  * - https://en.wikipedia.org/wiki/C2x
+ * - https://en.wikipedia.org/wiki/C99
  * - https://en.wikipedia.org/wiki/Embedded_C
  * - https://sourceforge.net/p/predef/wiki/Standards/
+ * - https://www.ecma-international.org/
  * - https://www.ibm.com/docs/en/xl-c-and-cpp-aix/
+ * - https://www.iso.org/standard/25845.html
+ * - https://www.iso.org/standard/38110.html
+ * - https://www.iso.org/standard/50372.html
+ * - https://www.iso.org/standard/64029.html
+ * - https://www.iso.org/standard/68564.html
+ * - https://www.iso.org/standard/79358.html
  * - https://www.stroustrup.com/bs_faq.html
+ * - https://www.stroustrup.com/compat_short.pdf
+ * - https://www.stroustrup.com/crc.pdf
+ * - https://www.stroustrup.com/examples_short.pdf
+ * - https://www.stroustrup.com/siblings_short.pdf
  * - Linux   <features.h>
  * - FreeBSD <features.h>
  * - Extensive compiler flag testing
