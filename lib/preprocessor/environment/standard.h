@@ -78,7 +78,8 @@
 /*! <!-- Standard C {{{ -->
  * This  section  safely  assumes and  initializes  the
  * below constant to a minimum of C89 if the `__STDC__`
- * predefined macro is available.
+ * predefined macro  is available. We  have, otherwise,
+ * no way of accurately determining pre-C89 versions.
  */
 #ifdef __STDC__
 
@@ -142,6 +143,13 @@
 #     define AMPLIFY_PREPROCESSOR_STANDARD_CPP_1998 /*!< ISO/IEC 14882:1998 */
 #  endif
 
+/*!
+ * C++03 is a minor revision of the C++98 standard; the
+ * `__cplusplus` macro is therefore unchanged. There is
+ * currently no viable way of identifying this revision
+ * specifically.
+ */
+
 #  if (__cplusplus >= 201103L)
 #     undef  AMPLIFY_PREPROCESSOR_STANDARD_CPP
 #     define AMPLIFY_PREPROCESSOR_STANDARD_CPP 2011
@@ -165,8 +173,12 @@
 
 #endif /* <!-- }}} Standard C++ version --> */
 
- * TODO(scheatkode): Write C++ CLI documentation.
 /*! <!-- C++/CLI {{{ -->
+ * C++/CLI is  a Windows-specific extension of  the C++
+ * version described in ISO/IEC 14882:2003 which has no
+ * viable  method  of  identification.  The  only  safe
+ * assumption  left is  the preceding  standard, namely
+ * ISO/IEC 14882:1998, a.k.a C++98.
  */
 #ifdef __cplusplus_cli
 
