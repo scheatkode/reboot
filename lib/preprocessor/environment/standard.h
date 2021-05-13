@@ -209,6 +209,20 @@
 
 #endif /* <!-- C++ CLI }}} --> */
 
+/*! <!-- C++/CX {{{ -->
+ * C++/CLI is  a Windows-specific extension of  the C++
+ * version  described in  ISO/IEC 14882:2011  which was
+ * later superseded  by the C++/WinRT library.  This is
+ * included only for historical purposes.
+ */
+#ifdef __cplusplus_winrt
+
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP 2011
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_2011    /*!< ISO/IEC 14882:2011 */
+#  define AMPLIFY_PREPROCESSOR_STANDARD_CPP_WCX
+
+#endif /* <!-- C++ CX }}} --> */
+
 /*! <!-- Embedded C++ {{{ -->
  * Embedded C++ is a subset of C++ lacking at least the
  * following language  features which  are known  to be
