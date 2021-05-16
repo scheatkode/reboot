@@ -1,4 +1,4 @@
-#+TITLE:        Amplify
+#+TITLE:        Reboot
 #+TITLE:
 #+AUTHOR:       scheatkode
 #+EMAIL:        scheatkode@gmail.com
@@ -13,4 +13,4 @@
 </p>
 #+end_html
 
-This is a work in progress, move along.
+This is a work in progress that's not even qualified to be alpha, move along.
