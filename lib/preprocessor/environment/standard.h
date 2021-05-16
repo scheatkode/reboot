@@ -69,6 +69,7 @@
  * - http://www.open-std.org/JTC1/SC22/WG14/www/docs/n2310.pdf
  * - http://www.open-std.org/JTC1/SC22/WG14/www/docs/n2596.pdf
  * - http://www.open-std.org/JTC1/SC22/WG14/www/standards
+ * - https://en.cppreference.com/w/c/language/history
  * - https://en.wikipedia.org/wiki/ANSI_C
  * - https://en.wikipedia.org/wiki/C++/CX
  * - https://en.wikipedia.org/wiki/C11_(C_standard_revision)
