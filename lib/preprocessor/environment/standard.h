@@ -259,7 +259,16 @@
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C 199901L
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C99
 
-/* <!-- C++ {{{ --> */
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_AT_LEAST_C99
+ * @brief C99 minimum version detection macro.
+ *
+ * This macro is defined  when **at least** the ISO/IEC
+ * 9899:1999   standard   of   the   C   language   was
+ * successfully detected. It should be safe to test for
+ * the  existance  of  this  macro  for  C99  exclusive
+ * features.
+ */
 
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_AT_LEAST_C99
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_AT_LEAST_C94
