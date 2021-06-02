@@ -18,7 +18,12 @@
  * This  header  provides preprocessor  directives  for
  * dealing  with predefined  macros  pertaining to  the
  * targeted/supported   version  of   the  C   language
- * standard.
+ * standard. In short, including  this file answers the
+ * question  “What version  of  the C  standard are  we
+ * using  ?”. This  is  a best  effort  at hunting  for
+ * accurate   historical   information  about   various
+ * implementation  inconsistencies  and working  around
+ * them to provide a readily usable set of macros.
  *
  * These preprocessor directives  are listed hereafter,
  * assuming  the following  prefix local  to this  file
