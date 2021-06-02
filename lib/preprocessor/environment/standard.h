@@ -31,22 +31,23 @@
  *
  * - C : This  is  the  main  constant  containing  the
  *       assumed current version of the C standard.
+ * - CPP : Ditto for the C++ standard.
  *
  * If  defined,  the  following means  one  can  safely
  * target *at least* the respective standard :
  *
- * - `C_1989`              : C89     / ANSI X3.159-1989
- * - `C_1990`              : C90     / ISO/IEC 9899:1990
- * - `C_1994`              : C94     / ISO/IEC 9899-1:1994
- * - `C_1999`              : C99     / ISO/IEC 9899:1999
- * - `C_2011`              : C11     / ISO/IEC 9899:2011
- * - `C_2017`,  `C_2018`   : C18     / ISO/IEC 9899:2018
- * - `CPP_1997`,`CPP_1998` : C++98   / ISO/IEC 14882:1998
- * - `CPP_2011`            : C++11   / ISO/IEC 14882:2011
- * - `CPP_2014`            : C++14   / ISO/IEC 14882:2014
- * - `CPP_2017`            : C++17   / ISO/IEC 14882:2017
- * - `CPP_CLI`             : C++/CLI / ECMA-372
- * - `CPP_EMB`             : Embedded C++
+ * - `C89`           : C89     / ANSI X3.159-1989
+ * - `C90`           : C90     / ISO/IEC 9899:1990
+ * - `C94`           : C94     / ISO/IEC 9899-1:1994
+ * - `C99`           : C99     / ISO/IEC 9899:1999
+ * - `C11`           : C11     / ISO/IEC 9899:2011
+ * - `C17`,  `C18`   : C18     / ISO/IEC 9899:2018
+ * - `CPP97`,`CPP98` : C++98   / ISO/IEC 14882:1998
+ * - `CPP11`         : C++11   / ISO/IEC 14882:2011
+ * - `CPP14`         : C++14   / ISO/IEC 14882:2014
+ * - `CPP17`         : C++17   / ISO/IEC 14882:2017
+ * - `CPP_CLI`       : C++/CLI / ECMA-372
+ * - `CPP_EMB`       : Embedded C++
  *
  * The many architectures  and compiler implementations
  * have  created much  inconsistencies  over time  and,
