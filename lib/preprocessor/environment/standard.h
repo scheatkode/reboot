@@ -246,6 +246,15 @@
 
 #     elif (__STDC_VERSION__ >= 199901L)
 
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C99
+ * @brief C99 detection macro.
+ *
+ * This  macro is  defined when  the ISO/IEC  9899:1999
+ * standard   of  the   C  language   was  successfully
+ * detected.  It  should  be   safe  to  test  for  the
+ * existance of this macro for C99 exclusive features.
+ */
 
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C 199901L
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C99
