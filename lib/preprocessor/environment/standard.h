@@ -318,6 +318,16 @@
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C 198912L
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C89
 
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_AT_LEAST_C89
+ * @brief C89 minimum version detection macro.
+ *
+ * This  macro is  defined **at  least** when  the ANSI
+ * X3.159-1989   standard  of   the   C  language   was
+ * successfully detected. It should be safe to test for
+ * the  existance  of  this  macro  for  C89  exclusive
+ * features.
+ */
 
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_AT_LEAST_C89
 
