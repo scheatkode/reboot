@@ -140,13 +140,18 @@
  * - Extensive compiler flag testing
  */
 
-/*! <!-- C {{{ --> */
 /*! <!-- Standard C {{{ -->
+ * @addtogroup  standard_c Standard C
+ * @brief Standard C detection macros
+ *
  * This  section  safely  assumes and  initializes  the
  * below constant to a minimum of C89 if the `__STDC__`
  * predefined macro  is available. We  have, otherwise,
- * no way of accurately determining pre-C89 versions.
+ * no  way of  accurately determining  pre-C89 versions
+ * and non ISO-conforming C versions.
+ * @{
  */
+
 #ifdef __STDC__
 
 #  define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C
@@ -234,6 +239,7 @@
 #  define REBOOT_PREPROCESSOR_ENVIRONMENT_NON_STANDARD_C
 
 #endif /*! @} <!-- }}} Standard C --> */
+
 /*! <!-- Standard C++ version {{{ -->
  * TODO(scheatkode): Write Standard C++ version documentation.
  */
