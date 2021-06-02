@@ -158,8 +158,12 @@
 #  define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C89
 
 #endif /* <!-- }}} Standard C --> */
+#     define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_ISO_C
+
+#  endif
 
 /*! <!-- Standard C version {{{ -->
+ *
  * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C
  * @brief C standard detection macro.
  *
