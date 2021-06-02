@@ -157,7 +157,20 @@
 #  define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C
 #  define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C89
 
-#endif /* <!-- }}} Standard C --> */
+#  if (__STDC__ == 1)
+
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_ISO_C
+ * @brief ISO-conforming implementation.
+ *
+ * This  macro is  defined when  the implementation  is
+ * certified to be conforming to the standard issued by
+ * the  International Organization  for Standardization
+ * thus, *should*  provide the features  and amendments
+ * described in the ISO/IEC 9899:1990 document although
+ * there are  exceptions such as GCC  when invoked with
+ * `-std=c89`.
+ */
 #     define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_ISO_C
 
 #  endif
