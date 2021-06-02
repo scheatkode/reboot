@@ -276,6 +276,15 @@
 
 #     elif (__STDC_VERSION__ >= 199409L)
 
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C94
+ * @brief C11 detection macro.
+ *
+ * This macro  is defined when the  ISO/IEC 9899-1:1994
+ * standard   of  the   C  language   was  successfully
+ * detected.  It  should  be   safe  to  test  for  the
+ * existance of this macro for C94 exclusive features.
+ */
 
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C 199409L
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C94
