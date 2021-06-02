@@ -192,6 +192,15 @@
 
 #     if (__STDC_VERSION__ >= 201710L)
 
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C17
+ * @brief C17 detection macro.
+ *
+ * This  macro is  defined when  the ISO/IEC  9899:2018
+ * standard   of  the   C  language   was  successfully
+ * detected.  It  should  be   safe  to  test  for  the
+ * existance of this macro for C17 exclusive features.
+ */
 
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C 201710L
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C17
