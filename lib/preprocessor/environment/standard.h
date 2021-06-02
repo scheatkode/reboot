@@ -63,6 +63,44 @@
  * these headers  if one wishes to  accurately make use
  * of the macros defined in this file.
  *
+ * Hereafter  a table  of required  macros mandated  by
+ * their respective standards — up to the C11 standard,
+ * where   they   should   all   be   defined   —   for
+ * documentation centralization purposes :
+ *
+ * | Macro                      | C89   | C99 | C11 |
+ * | -------------------------- | :---: | :-: | :-: |
+ * | \_\_STDC\_\_               | X     | X   | X   |
+ * | \_\_STDC_VERSION\_\_       | (C94) | X   | X   |
+ * | \_\_STDC_HOSTED\_\_        |       | X   | X   |
+ * |                            |       |     |     |
+ * | \_\_DATE\_\_               | X     | X   | X   |
+ * | \_\_FILE\_\_               | X     | X   | X   |
+ * | \_\_LINE\_\_               | X     | X   | X   |
+ * | \_\_TIME\_\_               | X     | X   | X   |
+ *
+ * Ditto for optional environment macros :
+ *
+ * | Macro                            | C89 | C99 | C11 |
+ * | -------------------------------- | :-: | :-: | :-: |
+ * | \_\_STDC\_ISO\_10646\_\_         |     |  X  |  X  |
+ * | \_\_STDC\_MB\_MIGHT\_NEQ\_WC\_\_ |     |  X  |  X  |
+ * | \_\_STDC\_UTF\_16\_\_            |     |     |  X  |
+ * | \_\_STDC\_UTF\_32\_\_            |     |     |  X  |
+ *
+ * Ditto for conditional feature macros :
+ *
+ * | Macro                            | C89 | C99 | C11 |
+ * | -------------------------------- | :-: | :-: | :-: |
+ * |  \_\_STDC\_ANALYZABLE\_\_        |     |     |  X  |
+ * |  \_\_STDC\_IEC\_559\_\_          |     |  X  |  X  |
+ * |  \_\_STDC\_IEC\_559\_COMPLEX\_\_ |     |  X  |  X  |
+ * |  \_\_STDC\_LIB\_EXT1\_\_         |     |     |  X  |
+ * |  \_\_STDC\_NO\_ATOMICS\_\_       |     |     |  X  |
+ * |  \_\_STDC\_NO\_COMPLEX\_\_       |     |     |  X  |
+ * |  \_\_STDC\_NO\_THREADS\_\_       |     |     |  X  |
+ * |  \_\_STDC\_NO\_VLA               |     |     |  X  |
+ *
  * Sources :
  *
  * - http://csapp.cs.cmu.edu/3e/docs/chistory.html
