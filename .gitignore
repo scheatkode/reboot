@@ -42,5 +42,10 @@
 *.idb
 *.pdb
 
+# Generated documentation
+doc/html/
+doc/man/
+doc/latex/
+
 # Language server cache
 .ccls-cache
