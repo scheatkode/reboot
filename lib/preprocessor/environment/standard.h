@@ -215,6 +215,16 @@
 
 #     elif (__STDC_VERSION__ >= 201112L)
 
+/*!
+ * @def   REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C11
+ * @brief C11 detection macro.
+ *
+ * This  macro is  defined when  the ISO/IEC  9899:2011
+ * standard   of  the   C  language   was  successfully
+ * detected.  It  should  be   safe  to  test  for  the
+ * existance of this macro for C11 exclusive features.
+ */
+
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_C 201112L
 #        define REBOOT_PREPROCESSOR_ENVIRONMENT_STANDARD_HAS_C11
 
