@@ -44,8 +44,23 @@
 
 # Generated documentation
 doc/html/
-doc/man/
 doc/latex/
+doc/man/
+
+# CMake objects
+**/*.cbp
+**/CMakeCache.txt
+**/CMakeFiles/
+**/CMakeScripts
+**/CTestTestfile.cmake
+**/Makefile
+**/cmake-build-debug
+**/cmake_install.cmake
+**/compile_commands.json
+**/install_manifest.txt
+
+# Keep root Makefile
+!/Makefile
 
 # Language server cache
 .ccls-cache
